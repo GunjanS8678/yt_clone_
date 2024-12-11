@@ -1,0 +1,253 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #202020;
+  color: #fff;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.auth-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.auth-page h2 {
+  text-align: center;
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.auth-page button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-page .error {
+  color: red;
+  text-align: center;
+}
+
+.video-player-page {
+  padding: 20px;
+}
+
+.video-player video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.video-actions button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  margin-bottom: 10px;
+}
+
+.comments-section input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.comments-section button {
+  padding: 10px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #202020;
+  color: #fff;
+}
+
+.header .logo {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header .search-bar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.header .search-bar button {
+  margin-left: 5px;
+  padding: 8px;
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header .user-actions button {
+  margin-left: 10px;
+  padding: 8px;
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header .user-actions .username {
+  margin-right: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #ddd;
+}
+
+/* Create Channel Page */
+.create-channel-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.create-channel-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-channel-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-channel-page input,
+.create-channel-page textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.create-channel-page button {
+  padding: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-channel-page .error {
+  color: red;
+  text-align: center;
+}
+
+.my-channel-page {
+  padding: 20px;
+}
+
+.channel-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.upload-video {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.upload-video form input,
+.upload-video form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.upload-video button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+

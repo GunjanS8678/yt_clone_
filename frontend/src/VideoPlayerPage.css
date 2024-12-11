@@ -1,0 +1,421 @@
+.video-player-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.content-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 24px;
+  padding-top: 60px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #000;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.video-info h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #030303;
+}
+
+.video-stats {
+  color: #606060;
+  font-size: 14px;
+}
+
+.video-stats span {
+  margin-right: 8px;
+}
+
+.video-player-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.content-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 24px;
+  padding-top: 60px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #000;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.video-info h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #030303;
+}
+
+.video-stats {
+  color: #606060;
+  font-size: 14px;
+}
+
+.video-stats span {
+  margin-right: 8px;
+}
+
+.video-actions {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #030303;
+  font-size: 14px;
+}
+
+.action-button:hover {
+  background: #e5e5e5;
+}
+
+.action-button.active {
+  background: #065fd4;
+  color: white;
+}
+
+.action-button.active:hover {
+  background: #0056b3;
+}
+
+.video-description {
+  padding: 16px 0;
+  color: #030303;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.comments-section {
+  margin-top: 24px;
+}
+
+.comments-section h3 {
+  font-size: 16px;
+  color: #030303;
+  margin-bottom: 24px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.comment-avatar {
+  font-size: 40px;
+  color: #909090;
+  min-width: 40px;
+}
+
+.comment-input-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-input-container input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+  background: transparent;
+  margin-bottom: 8px;
+}
+
+.comment-input-container input:focus {
+  outline: none;
+  border-bottom: 2px solid #065fd4;
+}
+
+.comment-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.comment-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.comment-buttons button[type="button"] {
+  background: transparent;
+  color: #606060;
+}
+
+.comment-buttons button[type="button"]:hover {
+  background: #f2f2f2;
+}
+
+.comment-buttons button[type="submit"] {
+  background: #065fd4;
+  color: white;
+}
+
+.comment-buttons button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.comment {
+  display: flex;
+  gap: 16px;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.comment-header strong {
+  font-size: 13px;
+  color: #030303;
+}
+
+.comment-header span {
+  font-size: 12px;
+  color: #606060;
+}
+
+.comment-content p {
+  font-size: 14px;
+  color: #030303;
+  line-height: 1.4;
+}
+
+.related-videos {
+  padding-left: 24px;
+}
+
+.related-videos h3 {
+  font-size: 16px;
+  color: #030303;
+  margin-bottom: 16px;
+}
+
+.related-video-card {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.related-video-card:hover {
+  background-color: #f2f2f2;
+}
+
+.related-video-card img {
+  width: 168px;
+  height: 94px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.related-video-info {
+  flex: 1;
+}
+
+.related-video-info h4 {
+  font-size: 14px;
+  color: #030303;
+  margin: 0 0 4px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.related-video-info p {
+  font-size: 12px;
+  color: #606060;
+  margin: 4px 0;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #065fd4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-container h2 {
+  color: #cc0000;
+  margin-bottom: 16px;
+}
+
+.error-container button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #065fd4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .content-container {
+    grid-template-columns: 65% 35%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+
+  .related-videos {
+    padding-left: 0;
+    margin-top: 24px;
+  }
+
+  .related-video-card {
+    flex-direction: row;
+  }
+
+  .related-video-card img {
+    width: 160px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-player-page {
+    padding: 12px;
+  }
+
+  .video-actions {
+    justify-content: space-around;
+  }
+
+  .action-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .comment-form {
+    flex-direction: column;
+  }
+
+  .comment-avatar {
+    font-size: 32px;
+  }
+
+  .related-video-card {
+    flex-direction: column;
+  }
+
+  .related-video-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  .related-video-info {
+    padding: 8px 0;
+  }
+}
